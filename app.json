@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "eas-test",
+    "slug": "eas-test",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zaryab.eastest"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.zaryab.eastest"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f5a39ac6-2535-4477-bdbf-9895c497669d"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "url": "https://u.expo.dev/f5a39ac6-2535-4477-bdbf-9895c497669d"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "zaryab haider"
+        }
+      ]
+    ]
+  }
+}
